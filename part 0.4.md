@@ -21,7 +21,7 @@ sequenceDiagram
     Note left of browser: HTML doc contains links causing the browser to make more GET requests to the server to retrieve the neccessary files
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
-    server-->>browser: JSON raw data file with the user input included as shown with Status Code 200
+    server-->>browser: JSON raw data file with the user input
 
-    Note left of browser: Javascript file contains a link so the browser makes another GET request to the server for the JSON file with the raw data and the user input
+    Note left of browser: Javascript file contains a link so the browser makes another GET request<br/>The server sends the JSON file with the raw data and the user input as shown with Status Code 200
 ```
