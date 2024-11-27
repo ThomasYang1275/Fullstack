@@ -19,4 +19,4 @@ sequenceDiagram
     server-->>browser: JSON file
 
     Note left of browser: The javascript file conatined a link so the browser sent a GET request<br/>The server sends back a JSON file with the raw data needed for the web page
-    ```
+```
